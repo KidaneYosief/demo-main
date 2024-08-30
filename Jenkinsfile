@@ -38,6 +38,7 @@ pipeline {
 				script { 
 					if (branch == 'main' || branch == 'dev'){
 						sh '''
+							env
 							mvn clean deploy -P $branch
 						'''
 					} else {
