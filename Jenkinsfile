@@ -38,12 +38,11 @@ pipeline {
 				script { 
 					if (branch == 'main' || branch == 'dev'){
 						sh '''
-							env
-							mvn clean deploy -P $branch
+							mvn clean deploy -P $GIT_BRANCH
 						'''
 					} else {
 						sh '''
-							mvn clean install -P $branch
+							mvn clean install -P $GIT_BRANCH
 						'''
 					}
 				}
