@@ -34,7 +34,7 @@
     <dependency>
       <groupId>com.deloitte</groupId>
       <artifactId>repo</artifactId>
-      <version>${demo-repo.version}</version>
+      <version>${repo.version}</version>
   	</dependency>
   </dependencies>
 </project>
