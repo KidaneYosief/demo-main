@@ -31,10 +31,10 @@
     </plugins>
   </build>
   <dependencies>
-  	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>javax.servlet-api</artifactId>
-  		<version>3.0.1</version>
+    <dependency>
+      <groupId>com.deloitte</groupId>
+      <artifactId>repo</artifactId>
+      <version>${demo-repo.version}</version>
   	</dependency>
   </dependencies>
 </project>
